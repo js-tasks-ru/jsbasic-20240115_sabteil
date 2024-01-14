@@ -1,3 +1,6 @@
+// Иванов Артур(Sabteil)
+
 function sum(m, n) {
-  // ваш код...
+  sum = m + n;
+  return sum;
 }
