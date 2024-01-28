@@ -38,7 +38,7 @@ describe('2-module-1-task', () => {
     expect(sumSalary(salaries)).toEqual(3900);
   });
 
-  it('должна возвращать 0 если нет свойств с зарплатами', () => {
+  it('должна возвращать 0 если нет свойств c зарплатами', () => {
     let salaries = {
       month: 'December',
       currency: 'USD',
