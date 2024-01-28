@@ -4,7 +4,7 @@ function truncate(str, maxlength) {
 
     strCut = str.slice(0 , maxlength - 1); // Обрезает строку на указанное количество символов 
     answer = strCut + "…"; //Добавляет в конец строки ...
-    // console.log(answer); // Тестовый вывод
+    console.log(answer); // Тестовый вывод
     return answer;
   } else {
     return str
