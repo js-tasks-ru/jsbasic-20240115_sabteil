@@ -9,10 +9,5 @@ function isEmpty(obj) {
   break;
   }
 
-  // Проверяет был ли выполнен цикл
-  if (empty) { 
-    return true;
-  } else {
-    return false;
-  }
+  return empty;
 }
