@@ -1,12 +1,10 @@
-//Sabteil (Артур ИВанов);
+//Sabteil (Артур Иванов);
 
 function camelize(str) {
 
-	const words = str.split("-"); //Создает массив из отдельных слов
+	const answer = str.split("-").map((text, index) => { //Создает массив из отдельных слов
 
-	const answer = words.map((text, index) => {
-
-		if (index === 0) { // Возвращает первый элемент массива без изменений
+		if (index === 0) { // Возвращает первый элемент массива без изменений 
 
 			return text;
 		}
@@ -18,5 +16,3 @@ function camelize(str) {
 	return answer //Возвращает текст преобразованный в camelCase
 
 	};
-
-
