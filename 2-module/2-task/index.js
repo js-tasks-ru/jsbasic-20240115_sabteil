@@ -1,3 +1,13 @@
+// Sabteil (Артур Иванов)
+
 function isEmpty(obj) {
-  // ваш код...
+
+  let empty = true;
+
+  for (let key in obj) { // Выполняется, только если есть свойства 
+  empty = false;
+  break;
+  }
+
+  return empty;
 }
