@@ -10,4 +10,3 @@ function toggleText() {
 }
 
 // Вызываем функцию после полной загрузки страницы
-document.addEventListener('DOMContentLoaded', toggleText() );
